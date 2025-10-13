@@ -47,9 +47,4 @@ Credit_Card_Fraud_Detection/
 | `Amount` | Transaction amount |
 | `Class` | Target variable (0 = Not Fraud, 1 = Fraud) |
 
----
 
-### 1️⃣ Clone this repository
-```bash
-git clone https://github.com/Mkpr26/Credit_Card_Fraud_Detection.git
-cd Credit_Card_Fraud_Detection
