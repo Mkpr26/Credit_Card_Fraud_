@@ -16,9 +16,9 @@ This project uses a **imbalanced dataset** and applies **Machine Learning techni
 
 ## 🧠 Key Features
 - Trained on **imbalanced data**.
-- Uses **XGBoost Classifier** for high accuracy.
+- Uses **RandomForestClassifier** for high accuracy.
 - Visualizes **performance metrics**.
-- Saved model with **Joblib** for quick loading.
+- Saved model with **pickle** for quick loading.
 
 ---
 
@@ -27,7 +27,7 @@ This project uses a **imbalanced dataset** and applies **Machine Learning techni
 Credit_Card_Fraud_Detection/
 │
 ├── app.py # Streamlit app for deployment
-├── xgb_fraud_model.pkl # Trained XGBoost model (saved using joblib)
+├── fraud_model.pkl # Trained model (saved using pickle)
 ├── creditcard.csv # Dataset (Kaggle)
 ├── requirements.txt # Project dependencies
 ├── README.md # Project documentation
@@ -46,3 +46,4 @@ Credit_Card_Fraud_Detection/
 | `V1` - `V28` | PCA-transformed features (confidential data) |
 | `Amount` | Transaction amount |
 | `Class` | Target variable (0 = Not Fraud, 1 = Fraud) |
+
