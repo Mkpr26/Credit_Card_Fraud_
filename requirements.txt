@@ -1,5 +1,0 @@
-numpy 
-pandas
-skicit-learn
-ipykernel
-xgboost
