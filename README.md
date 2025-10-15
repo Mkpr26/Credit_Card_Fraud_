@@ -3,7 +3,7 @@
 This project predicts whether a given credit card transaction is **Fraud or not Fraud** using the **Machine Learning Algorithm**.  
 It also includes a **Streamlit web application** where users can input transaction details and instantly check if the transaction is likely to be fraudulent.
 
-Use the App link to check whether the Transaction is **Fraud or not Fraud**:
+Use the App link to check whether the Transaction is **Fraud or not Fraud**:https://mkpr26-creditcardfraud.streamlit.app/
 
 ---
 
@@ -46,5 +46,6 @@ Credit_Card_Fraud_Detection/
 | `V1` - `V28` | PCA-transformed features (confidential data) |
 | `Amount` | Transaction amount |
 | `Class` | Target variable (0 = Not Fraud, 1 = Fraud) |
+
 
 
