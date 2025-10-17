@@ -27,9 +27,13 @@ This project uses a **imbalanced dataset** and applies **Machine Learning techni
 Credit_Card_Fraud_Detection/
 │
 ├── app.py # Streamlit app for deployment
+
 ├── fraud_model.pkl # Trained model (saved using pickle)
+
 ├── creditcard.csv # Dataset (Kaggle)
+
 ├── requirements.txt # Project dependencies
+
 ├── README.md # Project documentation
 
 ---
@@ -46,6 +50,7 @@ Credit_Card_Fraud_Detection/
 | `V1` - `V28` | PCA-transformed features (confidential data) |
 | `Amount` | Transaction amount |
 | `Class` | Target variable (0 = Not Fraud, 1 = Fraud) |
+
 
 
 
